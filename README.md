@@ -1,5 +1,10 @@
 # Use antd in create-react-app
 
+## Step by Step Documentation
+
+- English: https://ant.design/docs/react/use-with-create-react-app
+- 中文：https://ant.design/docs/react/use-with-create-react-app-cn
+
 ## Preview
 
 ```bash
