@@ -40,7 +40,7 @@ var env = getClientEnvironment(publicUrl);
 
 // Assert this just to be safe.
 // Development builds of React are slow and not intended for production.
-if (env['process.env'].NODE_ENV !== '"production"') {
+if (env.stringified['process.env'].NODE_ENV !== '"production"') {
   throw new Error('Production builds must have NODE_ENV=production.');
 }
 
@@ -222,6 +222,12 @@ module.exports = {
     // It is absolutely essential that NODE_ENV was set to production here.
     // Otherwise React will be compiled in the very slow development mode.
     new webpack.DefinePlugin(env),
+    //Make React to be minified in production
+    new webpack.DefinePlugin({
+      "process.env": { 
+        NODE_ENV: JSON.stringify("production") 
+      }
+    }),
     // This helps ensure the builds are consistent if source hasn't changed:
     new webpack.optimize.OccurrenceOrderPlugin(),
     // Try to dedupe duplicated modules, if any:
