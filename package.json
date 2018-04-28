@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "antd": "^2.13.8",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.16",
-    "babel-plugin-import": "^1.6.2",
+    "babel-plugin-import": "1.7.0",
+    "react": "latest",
     "react-app-rewire-less": "^2.0.8",
-    "react-app-rewired": "^1.3.4"
+    "react-app-rewired": "^1.3.4",
+    "react-dom": "latest",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-app-rewired start",
