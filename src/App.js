@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Form, Select, InputNumber, DatePicker, Switch, Slider, Button, message, Row, Col } from 'antd';
+import React from 'react';
+import { Form, Select, InputNumber, DatePicker, Switch, Slider, Button } from 'antd';
 import './App.css';
 
 const { Option } = Select;
@@ -13,7 +13,7 @@ const App = () => (
     >
       <InputNumber min={1} max={10} defaultValue={3} />
       <span className="ant-form-text"> 台机器</span>
-      <a href="#">链接文字</a>
+      <a href="https://ant.design">链接文字</a>
     </Form.Item>
     <Form.Item
       label="开关"
