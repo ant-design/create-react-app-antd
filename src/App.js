@@ -5,7 +5,7 @@ import './App.css';
 const { Option } = Select;
 
 const App = () => (
-  <Form horizontal>
+  <Form>
     <Form.Item
       label="数字输入框"
       labelCol={{ span: 8 }}
