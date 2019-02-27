@@ -1,5 +1,7 @@
 # Use antd in create-react-app ✨
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ant-design/create-react-app-antd.svg)](https://greenkeeper.io/)
+
 [Create React App](https://facebook.github.io/create-react-app/) + [Ant Design](https://ant.design).
 
 ## Step by Step Documentation
