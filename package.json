@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.13.4",
-    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-import": "^1.12.0",
     "customize-cra": "^0.2.11",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
