@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^3.21.4",
+    "antd": "^3.22.0",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.5.0",
     "less": "^3.9.0",
