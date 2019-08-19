@@ -6,7 +6,7 @@
     "antd": "^3.21.4",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.5.0",
-    "less": "^3.9.0",
+    "less": "^3.10.1",
     "less-loader": "^5.0.0",
     "react": "^16.9.0",
     "react-app-rewired": "^2.1.0",
