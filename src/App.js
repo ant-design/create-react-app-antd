@@ -1,22 +1,37 @@
 import React from 'react';
-import { Form, Select, InputNumber, DatePicker, Switch, Slider, Button, Typography } from 'antd';
-import './App.css';
+import {
+  Form,
+  Select,
+  InputNumber,
+  DatePicker,
+  Switch,
+  Slider,
+  Button,
+  Rate,
+  Typography,
+  Space,
+  Divider,
+} from 'antd';
+import './App.less';
 
 const { Option } = Select;
 const { Title } = Typography;
 
 const App = () => (
   <>
-    <section style={{ textAlign: 'center', marginTop: 48, marginBottom: 60 }}>
-      <Title level={2}>
+    <section style={{ textAlign: 'center', marginTop: 48, marginBottom: 40 }}>
+      <Space align="start">
         <img
-          style={{width: 40, height: 40, marginRight: 12, verticalAlign: 'bottom' }}
+          style={{width: 40, height: 40 }}
           src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
           alt="Ant Design"
         />
-        Ant Design
-      </Title>
+        <Title level={2} style={{ marginBottom: 0 }}>
+          Ant Design
+        </Title>
+      </Space>
     </section>
+    <Divider style={{ marginBottom: 60 }}>Form</Divider>
     <Form labelCol={{ span: 8 }} wrapperCol={{ span: 8 }}>
       <Form.Item label="数字输入框">
         <InputNumber min={1} max={10} defaultValue={3} />
@@ -40,14 +55,21 @@ const App = () => (
       <Form.Item label="日期选择框">
         <DatePicker />
       </Form.Item>
-
+      <Form.Item label="日期范围选择框">
+        <DatePicker.RangePicker />
+      </Form.Item>
+      <Form.Item label="评分">
+        <Rate defaultValue={5} />
+      </Form.Item>
       <Form.Item wrapperCol={{ span: 8, offset: 8 }}>
-        <Button type="primary" htmlType="submit">
-          Submit
-        </Button>
-        <Button style={{ marginLeft: 8 }}>
-          Cancel
-        </Button>
+        <Space>
+          <Button type="primary" htmlType="submit">
+            Submit
+          </Button>
+          <Button>
+            Cancel
+          </Button>
+        </Space>
       </Form.Item>
     </Form>
   </>
