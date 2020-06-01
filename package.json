@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^10.3.5",
     "antd": "^4.3.0",
-    "craco-less": "^1.16.0",
+    "craco-less": "^1.17.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
