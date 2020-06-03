@@ -1,8 +1,11 @@
 name: 📦 Build and Deploy
+
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
 jobs:
   install-and-test:
     runs-on: ubuntu-latest
