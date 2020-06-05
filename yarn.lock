@@ -1433,10 +1433,10 @@
     "@babel/runtime" "^7.10.2"
     "@testing-library/dom" "^7.9.0"
 
-"@testing-library/user-event@^11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-11.0.0.tgz#221d1b1030bd73e912f1fa2e76d77a192997c4ab"
-  integrity sha512-335OYCahGLf1IXaSRy5ObxFaSAxMwZyefD79YkhRwubUJ8rO2JjfZXM3Pkv98WUZ3eH14ank5y8L7hL1YZkYyA==
+"@testing-library/user-event@^11.1.0":
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-11.1.0.tgz#7b1eaed90a959bf32d29854106cff321b2a65a3f"
+  integrity sha512-ZAHoI6K8y3J1QxG2FMgm+xQRCvzwHZHW5pEJyjY9tnCS24JMwFNEaC3y6OecRIdjZtNQfGi5YHU5Ra/cUoIIjQ==
   dependencies:
     "@babel/runtime" "^7.10.2"
 
