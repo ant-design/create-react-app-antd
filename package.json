@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.2.1",
     "@testing-library/user-event": "^11.1.0",
-    "antd": "^4.3.3",
+    "antd": "^4.5.0",
     "craco-less": "^1.17.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
