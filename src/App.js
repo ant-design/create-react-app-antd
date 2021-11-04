@@ -13,13 +13,14 @@ import {
   Divider,
 } from 'antd';
 import './App.less';
+import './my.less';
 
 const { Option } = Select;
 const { Title } = Typography;
 
 const App = () => (
   <>
-    <section style={{ textAlign: 'center', marginTop: 48, marginBottom: 40 }}>
+    <section className="App" style={{ textAlign: 'center', marginTop: 48, marginBottom: 40 }}>
       <Space align="start">
         <img
           style={{width: 40, height: 40 }}
