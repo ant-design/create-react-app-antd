@@ -4,8 +4,8 @@
 
 ## Step by Step Documentation
 
-- 🇺🇸 English: https://ant.design/docs/react/use-with-create-react-app
-- 🇨🇳 中文：https://ant.design/docs/react/use-with-create-react-app-cn
+-   🇺🇸 English: https://ant.design/docs/react/use-with-create-react-app
+-   🇨🇳 中文：https://ant.design/docs/react/use-with-create-react-app-cn
 
 ## Preview
 
@@ -23,10 +23,10 @@ $ yarn start
 
 ## See more
 
-- [antd](http://github.com/ant-design/ant-design/)
-- [create-react-app](https://github.com/facebookincubator/create-react-app)
-- [craco](https://github.com/gsoft-inc/craco)
-- [craco-less](https://github.com/DocSpring/craco-less)
+-   [antd](http://github.com/ant-design/ant-design/)
+-   [create-react-app](https://github.com/facebookincubator/create-react-app)
+-   [craco](https://github.com/gsoft-inc/craco)
+-   [craco-antd](https://github.com/DocSpring/craco-antd)
 
 ---
 
